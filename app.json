@@ -1,7 +1,7 @@
 {
-    "name": "Song Downloader Bot",
-    "description": "A bot that can download song you want.",
-    "logo": "https://telegra.ph/file/b3efcfc264cc17fdec9fe.jpg",
+    "name": "Telegram-Music-Download-Bot",
+    "description": "Telegram-Music-Download-Bot can Download Your MP3 Songs in Second.",
+    "logo": "https://telegra.ph/file/344bec7c3f1863267c7e4.jpg",
     "keywords": [
         "Music",
         "Songdl",
@@ -9,7 +9,7 @@
         "slbotzone Bots"
     ],
     "website": "https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA/videos",
-    "repository": "https://github.com/youtubeslgeekshow/fastsongdownloaderbot",
+    "repository": "https://github.com/Dinuraofficial/Telegram-Music-Download-Bot",
     "success_url": "https://t.me/slbotzone",
     "env": {
         "TG_BOT_TOKEN": {
