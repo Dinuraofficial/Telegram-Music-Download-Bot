@@ -12,7 +12,7 @@
 `/help` : More information about Link Short Bot
 
 `/mp3 SONG_NAME` : Download Your MP3 Songs
-Ex : `/mp3 alone`
+Ex : `/mp3 stitches`
 
 # What is Telegram-Music-Download-Bot ?
 Telegram-Music-Download-Bot can Download Your MP3 Songs in Second
