@@ -12,8 +12,8 @@ $lname = $update->message->chat->last_name;
 $inlinebutton = [
     'inline_keyboard' => [
         [
-            ['text' => "\xF0\x9F\x99\x8B Support Group", 'url' => 'https://t.me/sltechzoneofficial'],
-            ['text' => "\xF0\x9F\x94\x94 Update Channel", 'url' => 'https://t.me/sltechzone']
+            ['text' => "\xF0\x9F\x99\x8B Support Group", 'url' => 'https://t.me/slbotzone'],
+            ['text' => "\xF0\x9F\x94\x94 Update Channel", 'url' => 'https://t.me/SL_bot_zone']
         ],
         [
             ['text' => "\xE2\x9E\x95 Add me to Your Group", 'url' => 'https://t.me/mp3downloadtgbot?startgroup=new']
@@ -58,7 +58,7 @@ if (strpos($send, "/start") === 0) {
 
 if (strpos($send, "/help") === 0) {
 
-	$helptext = urlencode("<b>\xF0\x9F\x8E\xA7 Telegram MP3 Download Bot \xF0\x9F\x8E\xA7\n\n\xE3\x80\xBD About Bot \xE3\x80\xBD\n\n\xE2\x96\xB6	Name - Telegram MP3 Download Bot\n\xE2\x96\xB6	Username - @mp3downloadtgbot\n\xE2\x96\xB6 Created By - @hirunaofficial\n\n\xF0\x9F\x94\xA7 Bot Commands \xF0\x9F\x94\xA7\n\n\xE2\x96\xB6	/start - Start Telegram MP3 Download Bot\n\xE2\x96\xB6	/help - More information about Telegram MP3 Download Bot\n\xE2\x96\xB6 /mp3 SONG_NAME - Download Your MP3 Songs\nEx - /mp3 alone</b>");
+	$helptext = urlencode("<b>\xF0\x9F\x8E\xA7 Telegram MP3 Download Bot \xF0\x9F\x8E\xA7\n\n\xE3\x80\xBD About Bot \xE3\x80\xBD\n\n\xE2\x96\xB6	Name - Telegram MP3 Download Bot\n\xE2\x96\xB6	Username - @mp3downloadtgbot\n\xE2\x96\xB6 Created By - @Dinuraofficial\n\n\xF0\x9F\x94\xA7 Bot Commands \xF0\x9F\x94\xA7\n\n\xE2\x96\xB6	/start - Start Telegram MP3 Download Bot\n\xE2\x96\xB6	/help - More information about Telegram MP3 Download Bot\n\xE2\x96\xB6 /mp3 SONG_NAME - Download Your MP3 Songs\nEx - /mp3 alone</b>");
     
 	file_get_contents("https://api.telegram.org/bot$token/sendphoto?chat_id=$chat_id&photo=$img&parse_mode=HTML&caption=$helptext&reply_to_message_id=$msgid&reply_markup=$keyboard");
 }
